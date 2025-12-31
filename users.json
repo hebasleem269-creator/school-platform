@@ -1,0 +1,23 @@
+[
+    {
+        "name": "admin",
+        "email": "admin@gmail.com",
+        "password": "12345",
+        "role": "admin",
+        "image": "1767206467_6954b9357d781.png"
+    },
+    {
+        "name": "essam",
+        "email": "essam@gmail.com",
+        "password": "12345",
+        "role": "teacher",
+        "image": "1767206546_1767189795_1000121009.webp"
+    },
+    {
+        "name": "saly",
+        "email": "saly@gmail.com",
+        "password": "12345",
+        "role": "student",
+        "image": "1767206590_1767193861_1000120909.jpg"
+    }
+]

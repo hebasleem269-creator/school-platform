@@ -1,0 +1,27 @@
+<form action="upload_lesson.php" method="post" enctype="multipart/form-data">
+  <label>المرحلة</label>
+  <input type="text" name="stage" required>
+
+  <label>العنوان</label>
+  <input type="text" name="title" required>
+
+  <label>المحتوى</label>
+  <textarea name="content" rows="4" required></textarea>
+
+  <label>صورة</label>
+  <input type="file" name="image" accept=".png,.jpg,.jpeg,.webp">
+
+  <label>صوت</label>
+  <input type="file" name="audio" accept=".mp3,.wav,.ogg,.opus">
+
+  <label>PDF</label>
+  <input type="file" name="pdf" accept=".pdf">
+
+  <label>فيديو</label>
+  <input type="file" name="video" accept=".mp4,.webm,.mov">
+
+  <label>يوتيوب</label>
+  <input type="url" name="youtube" placeholder="https://www.youtube.com/watch?v=...">
+
+  <button type="submit">حفظ الدرس</button>
+</form>
