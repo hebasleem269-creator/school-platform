@@ -1,0 +1,103 @@
+/* عام */
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    direction: rtl;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    color: #006064;
+}
+
+/* الأزرار */
+a.btn, button {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    background: #00838f;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a.btn:hover, button:hover {
+    background: #006064;
+}
+
+/* البطاقات */
+.card {
+    background: #e0f7fa;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* الجداول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #00838f;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* فورمات الإدخال */
+form input, form select {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+/* رسائل */
+.message {
+    margin: 10px 0;
+    font-weight: bold;
+    color: green;
+}
+
+/* تسليم الواجبات */
+.grade-display {
+    margin-top: 10px;
+    padding: 10px;
+    background: #b2dfdb;
+    border-radius: 8px;
+    color: #004d40;
+    font-weight: bold;
+}

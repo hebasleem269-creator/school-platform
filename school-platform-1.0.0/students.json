@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "name": "saly",
+    "email": "saly@gmail.com",
+    "password": "12345",
+    "school": "مدرسة عمر طة",
+    "class": "ثاني ثانوي",
+    "profile": "student"
+  }
+]
